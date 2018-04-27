@@ -18,17 +18,17 @@
 .imgcontainer {
 	position: relative;
 	display: flex;
-	min-height: 600px;
-	max-height: 600px;
+	min-height: 300px;
+	max-height: 300px;
 	background-repeat: no-repeat;
-	width: 99%;
+	width: 100%;
 }
 
 .imgcontainer img {
 	opacity: 1;
 	position: relative;
-	max-height: 500px;
-	min-height: 500px;
+	max-height: 300px;
+	min-height: 300px;
 	
 }
 
@@ -70,8 +70,8 @@
 	padding: 75px;
 	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
 	margin: 0 auto;
-	max-width: 875px;
-	min-width: 875px;
+	height: 1100px;
+	width: 777px;
 	
 }
 
@@ -79,12 +79,14 @@
 	position: relative;
 	display: flex;
 	align-items: center;
-	background-color: lightgrey;
-	padding: 50px;
+	background-color: white;
+	padding: 25px;
 	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
 	margin: 0 auto;
-	min-width: 250px;
-	max-width: 300px
+	min-width:500px;
+	max-width:500px;
+	border-radius: 20px;
+	
 }
 
 .button {
@@ -95,8 +97,9 @@
 	padding: 50px;
 	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
 	font-size: 24px;
-	background-color: lightgrey;
+	background-color: white;
 	max-width: 350px;
+	border-radius: 20px;
 	
 }
 
@@ -106,8 +109,8 @@
 	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
 	margin: 0 auto;
 	display: block;
-	width: 300px;
-	border-radius: 100px;
+	width: 500px;
+	border-radius: 250px;
 	
 }
 
@@ -117,7 +120,7 @@
 h1  {
 	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
 	font-size: 18px;
-	background-color:darkgray;
+	background-color:lightgray;
 	position: sticky;
 	position: -webkit-sticky;
 }
@@ -128,11 +131,11 @@ h2 {
 	align-content: center;
 	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
 	font-size: 48px;
-	background-color: darkgray;
+	background-color:lightgray;
 }
 
 h3 {
-	background-color:darkgray;
+	background-color:lightgray;
 	left: 45%;
 }
 
@@ -146,7 +149,7 @@ h4 {
 }
 
 body {
-	background-color:darkgray;
+	background-color:lightgrey;
 }
 
 footer {
@@ -256,8 +259,6 @@ li.dropdown {
 .fa:hover {
     opacity: 0.7;
 }
-
-
 /* Facebook */
 .fa-facebook {
     background: #3B5998;
@@ -266,6 +267,7 @@ li.dropdown {
 	margin-right: 5px;
 	align-content: center;
 	display: flex;
+	border-radius: 50px;
 }
 
 .fa-linkedin-square {
@@ -275,6 +277,17 @@ li.dropdown {
 	margin-right: 5px;
 	align-content: center;
 	display: flex;
+	border-radius: 50px;
+}
+
+.fa-github-square {
+	background: #6702C0;
+	color: white;
+	margin-left: 5px;
+	margin-right: 5px; 
+	align-content: center;
+	display: flex;
+	border-radius: 50px;
 }
 
 .fa-instagram {
@@ -284,15 +297,17 @@ li.dropdown {
 	margin-right: 5px;
 	align-content: center;
 	display: flex;
+	border-radius: 50px;
 }
 
 .fa-envelope-square {
-	background: #FFFFFF;
+	background: #D3D3D3;
 	color: black;
 	margin-left: 5px;
 	margin-right: 5px;
 	align-content: center;
 	display: flex;
+	border-radius: 50px;
 }
 @media (max-width: 1556px){
 }
