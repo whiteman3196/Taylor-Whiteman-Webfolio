@@ -1,0 +1,298 @@
+@charset "UTF-8";
+/* CSS Document Settings */
+
+/* Image Settings */
+
+.table {
+	position:relative;
+	display: flex;
+	align-content: center;
+	table-layout: auto;
+	margin-left: 25px;
+	margin-right: 25px;
+	border: 1px solid black;
+	
+	
+}
+
+.imgcontainer {
+	position: relative;
+	display: flex;
+	min-height: 600px;
+	max-height: 600px;
+	background-repeat: no-repeat;
+	width: 99%;
+}
+
+.imgcontainer img {
+	opacity: 1;
+	position: relative;
+	max-height: 500px;
+	min-height: 500px;
+	
+}
+
+.imgcontainer h4 {
+	object-position: center;
+	position: relative;
+	
+
+}
+
+.center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+	
+}
+
+.centered {
+	position: absolute;
+	text-align: center;
+	margin-left: 22.5%;
+
+}
+
+.box {
+	position:relative;
+	margin: 0 auto;
+	text-align: center;
+	padding: 10px;
+	border: solid #000000;
+	width: 125px;
+	display:flex;
+}
+
+.document {
+	position: relative;
+	background-color: white;
+	padding: 75px;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	margin: 0 auto;
+	max-width: 875px;
+	min-width: 875px;
+	
+}
+
+.contact {
+	position: relative;
+	display: flex;
+	align-items: center;
+	background-color: lightgrey;
+	padding: 50px;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	margin: 0 auto;
+	min-width: 250px;
+	max-width: 300px
+}
+
+.button {
+	position: relative;
+	display: flex;
+	margin: 0 auto;
+	text-align: center;
+	padding: 50px;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	font-size: 24px;
+	background-color: lightgrey;
+	max-width: 350px;
+	
+}
+
+.image {
+	position: relative;
+	background-color: white;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	margin: 0 auto;
+	display: block;
+	width: 300px;
+	border-radius: 100px;
+	
+}
+
+
+/* Text Settings */
+
+h1  {
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	font-size: 18px;
+	background-color:darkgray;
+	position: sticky;
+	position: -webkit-sticky;
+}
+
+h2 {
+	position: absolute;
+	text-align: center;
+	align-content: center;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	font-size: 48px;
+	background-color: darkgray;
+}
+
+h3 {
+	background-color:darkgray;
+	left: 45%;
+}
+
+h4 {
+	position: absolute;
+	display:flex;
+	text-align: center;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	font-size: 100px;
+
+}
+
+body {
+	background-color:darkgray;
+}
+
+footer {
+	
+}
+
+.column {
+    float: left;
+    width: 47%;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+
+}
+
+
+/* Menu Settings */
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+	position: sticky;
+	position: -webkit-sticky;
+}
+
+li {
+    float: right;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111;
+}
+
+li a, .dropbtn {
+	display: inline-block;
+	text-align: center;
+	padding: 14px 16px;
+}
+
+li.dropdown {
+	display: inline-block
+}
+
+.navbar {
+    overflow: hidden;
+    background-color: #333;
+    font-family: Arial;
+}
+
+.navbar a {
+    float: left;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.dropdown-content {
+	display: none;
+	position: absolute;
+	background-color: #f9f9f9;
+	min-width: 160px;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+
+/* Social Button Settings */
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+}
+.fa:hover {
+    opacity: 0.7;
+}
+
+
+/* Facebook */
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+	margin-left: 5px;
+	margin-right: 5px;
+	align-content: center;
+	display: flex;
+}
+
+.fa-linkedin-square {
+    background: #55ACEE;
+    color: white;
+	margin-left: 5px;
+	margin-right: 5px;
+	align-content: center;
+	display: flex;
+}
+
+.fa-instagram {
+	background: #125688;
+	color: white;
+	margin-left: 5px;
+	margin-right: 5px;
+	align-content: center;
+	display: flex;
+}
+
+.fa-envelope-square {
+	background: #FFFFFF;
+	color: black;
+	margin-left: 5px;
+	margin-right: 5px;
+	align-content: center;
+	display: flex;
+}
+@media (max-width: 1556px){
+}
